@@ -9,7 +9,7 @@ This repository provides the official PyTorch implementation of "Jeon et al., AD
 * [MIMIC-III dataset](https://physionet.org/content/mimiciii/1.4/)
     * Setup MIMIC-III: https://github.com/MIT-LCP/mimic-code 
     * Sepsis preprocessing: https://github.com/uribyul/py_ai_clinician
-    * Mechanical ventilation processing: https://github.com/yinchangchang/DAC/tree/main
+    * (Supplementary) Mechanical ventilation processing: https://github.com/yinchangchang/DAC/tree/main
 
 ## Prerequisites
 * Python 3.9
