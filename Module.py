@@ -155,7 +155,7 @@ class ADT2R(nn.Module):
         self.embed_state = nn.Linear(self.state_dim, self.h_dim)
         self.embed_action = nn.Embedding(self.act_dim, self.h_dim)
         self.embed_mortality = nn.Linear(1, self.h_dim)
-        self.embed_estiated_state = nn.Linear(1, self.h_dim)
+        self.embed_estimated_state = nn.Linear(1, self.h_dim)
         self.embed_hiddens_low= nn.Sequential(torch.nn.Linear(h_dim * 2, h_dim),
                                                nn.LayerNorm(h_dim),
                                                nn.GELU(),
